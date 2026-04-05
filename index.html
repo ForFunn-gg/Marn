@@ -211,7 +211,7 @@
                 <div class="contact-icon">💼</div>
                 <div>
                     <h4>LinkedIn</h4>
-                    <a href=""></a>
+                    <a href="https://www.linkedin.com/in/maronjake" target="_blank">LinkedIn Profile</a>
                 </div>
             </div>
 
@@ -219,11 +219,11 @@
                 <div class="contact-icon">💻</div>
                 <div>
                     <h4>GitHub</h4>
-                    <a href=""></a>
+                    <a href="https://github.com/ForFunn-gg" target="_blank">GitHub Profile</a>
                 </div>
             </div>
         </div>
-    <form action="contact-form" id="contact-form">
+    <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" autocomplete="Your name" required ...>
@@ -237,7 +237,10 @@
             <textarea id="message" name="message" required placeholder="Your message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Send Message</button>
+        <input type="hidden" name="access_key" value="29bde90e-0c92-4699-bd5b-94965fa8892d" />
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"></form>
     </form>
+
   </div>
 
 </div>
